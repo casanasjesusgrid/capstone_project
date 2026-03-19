@@ -15,7 +15,26 @@ Este proyecto es una utilidad de consola escrita en Python que genera archivos d
 
 ## 📁 Estructura del proyecto
 
-``` capstone_project/ ├── src/ │ ├── main.py # Punto de entrada del programa │ ├── config.py # Carga y validación de configuración │ ├── generator.py # Lógica de generación de datos │ ├── schema_parser.py # Interpretación del esquema │ ├── utils.py # Funciones auxiliares │ └── logger.py # Configuración de logging ├── tests/ # Pruebas automatizadas ├── default.ini # Configuración por defecto ├── requirements.txt # Dependencias del proyecto └── README.md ```
+``` 
+capstone_project/
+├── src/
+│   ├── main.py # Punto de entrada del programa
+│   ├── config.py # Carga y validación de configuración
+│   ├── generator.py # Lógica de generación de datos
+│   ├── schema_parser.py # Interpretación del esquema
+│   ├── utils.py # Funciones auxiliares
+│   └── logger.py # Configuración de logging
+├── tests/ # Pruebas automatizadas
+│   ├── test_config.py # Test módulo config
+│   ├── test_generator.py # Test módulo generator
+│   ├── test_logger.py # Test módulo logger
+│   ├── test_schema_parser.py # Test módulo schema_parser
+│   └── test_utils.py # Test módulo utils
+├── default.ini # Configuración por defecto
+├── requirements.txt # Dependencias del proyecto
+├── schema.json # Formato de datos
+└── README.md
+```
 
 ## ⚙️ Instalación
 
